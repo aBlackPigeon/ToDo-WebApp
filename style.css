@@ -1,0 +1,90 @@
+*{
+    padding : 0px;
+    margin : 0px;
+}
+
+body{
+    background-color: #ddcbff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container{
+    display :flex;
+    flex-direction :column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap : 20px;
+    padding: 50px;
+}
+
+
+#add_task{
+    padding : 20px;
+    width : max-content;
+    height : 50px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    gap : 10px;
+    border-radius : 20px;
+    background-color : #a067ea;
+}
+
+#list_task{
+    padding : 20px;
+    width : 510px;
+    border-radius : 20px;
+    background-color : #a067ea;
+    text-align: left;
+}
+
+.text-field{
+    height : 35px;
+    width : 400px;
+    border-radius : 5px;
+    border :1px solid black;
+    font-size : 22px;
+}
+
+.text-field:focus{
+    border : 1px solid #a067ea;
+}
+
+
+
+.btn-style{
+    height : 35px;
+    width : 100px;
+    font-weight : 600;
+    border-radius : 5px;
+    border : 1px solid black;
+    transition: 0.3s ease;
+    font-size : 14px;
+}
+
+.btn-style:hover{
+    background-color :#f1e4fe;
+    cursor: pointer;
+    border : 1px solid black;
+}
+
+ul{
+    padding:10px;
+    list-style: none;
+}
+
+h2{
+    padding : 10px 10px 0px 30px;
+    color : white;
+}
+
+li{
+    padding : 2px;
+    font-size : 22px;
+    background-color: #f1e4fe;
+    margin : 20px;
+    border-radius : 5px;
+    padding : 10px;
+}
+
